@@ -17,7 +17,7 @@ if (contentSection.innerHTML === "") {
           <section class="section">
         <div class="banner">
           <div class="left">
-            <img src="/../images/dinning.jpg" class="menu1" alt="" />
+            <img src="images/dinning.jpg" class="menu1" alt="" />
           </div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
@@ -39,7 +39,7 @@ if (contentSection.innerHTML === "") {
         <div class="bottom">
           <div class="dish">
             <div class="top">
-              <img src="/../images/breakfast.jpg" alt="" />
+              <img src="images/breakfast.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -56,7 +56,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/brunch.jpg" alt="" />
+              <img src="images/brunch.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -73,7 +73,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/dinner.webp" alt="" />
+              <img src="images/dinner.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -90,7 +90,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/dessert.jpg" alt="" />
+              <img src="images/dessert.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -107,7 +107,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/wines.webp" alt="" />
+              <img src="images/wines.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -124,7 +124,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/snacks.webp" alt="" />
+              <img src="images/snacks.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -151,7 +151,7 @@ function renderHomePage() {
     <section class="section">
         <div class="banner">
           <div class="left">
-            <img src="/../images/dinning.jpg" class="menu1" alt="" />
+            <img src="images/dinning.jpg" class="menu1" alt="" />
           </div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
@@ -173,7 +173,7 @@ function renderHomePage() {
         <div class="bottom">
           <div class="dish">
             <div class="top">
-              <img src="/../images/breakfast.jpg" alt="" />
+              <img src="images/breakfast.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -190,7 +190,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/brunch.jpg" alt="" />
+              <img src="images/brunch.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -207,7 +207,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/dinner.webp" alt="" />
+              <img src="images/dinner.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -224,7 +224,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/dessert.jpg" alt="" />
+              <img src="images/dessert.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -241,7 +241,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/wines.webp" alt="" />
+              <img src="images/wines.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -258,7 +258,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="/../images/snacks.webp" alt="" />
+              <img src="images/snacks.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
