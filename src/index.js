@@ -3,6 +3,7 @@ import "./header.css";
 import "./content.css";
 import "./menu.css";
 import "./style.css";
+import "../images";
 
 const contentSection = document.getElementById("content");
 const homeButton = document.getElementById("home");
