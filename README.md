@@ -11,3 +11,4 @@ Prending improvement:
 Issue:
 > the javascript needs alot of work:
 * the javascript is not rendering the contents of the webpage properly for example it cannot read the event listeners on the pages it renders
+> the images are not loading on live preview
