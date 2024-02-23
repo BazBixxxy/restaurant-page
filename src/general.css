@@ -4,7 +4,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  font-weight: 100;
   padding: 0;
 }
 
@@ -66,12 +65,13 @@ h2 {
 }
 
 p {
-  line-height: calc(1ex / 0.39);
   max-width: 100%;
   text-align: left;
+  line-height: 25px;
+  margin-top: 30px;
 }
 
-.content section:nth-child(1) {
+.home section:nth-child(1) {
   /* background-color: rgb(252, 229, 200); */
   height: 69vh;
   display: flex;
@@ -79,13 +79,13 @@ p {
   align-items: center;
 }
 
-.content section:nth-child(2) {
+.home section:nth-child(2) {
   margin-left: 50px;
   margin-right: 50px;
   padding-bottom: 10px;
 }
 
-.content section:nth-child(2) > .bottom {
+.home section:nth-child(2) > .bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;

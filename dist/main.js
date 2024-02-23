@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.content {
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .banner {
@@ -120,7 +120,9 @@ h3:hover {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-`, "",{"version":3,"sources":["webpack://./src/content.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;AACnB;;AAEA;EACE,2CAA2C;EAC3C,2BAA2B;EAC3B,aAAa;EACb,UAAU;EACV,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,UAAU;EACV,YAAY;AACd;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,iBAAiB;EACjB,4BAA4B;EAC5B,+BAA+B;AACjC;;AAEA;EACE,OAAO;EACP,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,SAAS;EACT,uBAAuB;EACvB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,aAAa;EACb,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,SAAS;EACT,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB","sourcesContent":[".content {\n  margin-top: 120px;\n}\n\n.banner {\n  /* background-color: var(--banner-color); */\n  background-color: aliceblue;\n  height: 450px;\n  width: 75%;\n  min-width: 500px;\n  border-radius: 20px;\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n\n.banner .left {\n  width: 60%;\n  height: 100%;\n}\n\n.menu1 {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  border-top-left-radius: 20px;\n  border-bottom-left-radius: 20px;\n}\n\n.banner .right {\n  flex: 1;\n  margin-left: 20px;\n  padding-left: 10px;\n  padding-right: 10px;\n}\n\n.banner .right p {\n  font-size: 1.12rem;\n}\n\n.arrow {\n  position: absolute;\n  bottom: 3%;\n  right: 3%;\n  background-color: white;\n  width: 40px;\n  height: 40px;\n  border-radius: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.fa-arrow-right {\n  font-size: 1.6rem;\n  color: var(--hover-color);\n}\n\n.fa-arrow-right:hover {\n  color: hsl(209, 90%, 27%);\n}\n\n.dish > .top {\n  overflow: hidden;\n  transition: 2s ease all;\n  border-radius: 8px;\n}\n\n.dish img {\n  border-radius: 8px;\n  width: 100%;\n  height: 270px;\n  transition: 2s ease all;\n  cursor: pointer;\n}\n\n.dish img:hover {\n  transform: scale(1.1);\n}\n\n.title h3 {\n  font-size: 1.4rem;\n  font-weight: 400;\n  margin: 0;\n  display: inline;\n  cursor: pointer;\n}\n\nh3:hover {\n  color: lightsalmon;\n}\n\n.fa-star {\n  color: orange;\n  font-size: 1.1rem;\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\n"],"sourceRoot":""}]);
+
+
+`, "",{"version":3,"sources":["webpack://./src/content.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;AACnB;;AAEA;EACE,2CAA2C;EAC3C,2BAA2B;EAC3B,aAAa;EACb,UAAU;EACV,gBAAgB;EAChB,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,UAAU;EACV,YAAY;AACd;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,iBAAiB;EACjB,4BAA4B;EAC5B,+BAA+B;AACjC;;AAEA;EACE,OAAO;EACP,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,SAAS;EACT,uBAAuB;EACvB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,aAAa;EACb,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,SAAS;EACT,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB","sourcesContent":[".content {\n  margin-top: 150px;\n}\n\n.banner {\n  /* background-color: var(--banner-color); */\n  background-color: aliceblue;\n  height: 450px;\n  width: 75%;\n  min-width: 500px;\n  border-radius: 20px;\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n\n.banner .left {\n  width: 60%;\n  height: 100%;\n}\n\n.menu1 {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  border-top-left-radius: 20px;\n  border-bottom-left-radius: 20px;\n}\n\n.banner .right {\n  flex: 1;\n  margin-left: 20px;\n  padding-left: 10px;\n  padding-right: 10px;\n}\n\n.banner .right p {\n  font-size: 1.12rem;\n}\n\n.arrow {\n  position: absolute;\n  bottom: 3%;\n  right: 3%;\n  background-color: white;\n  width: 40px;\n  height: 40px;\n  border-radius: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.fa-arrow-right {\n  font-size: 1.6rem;\n  color: var(--hover-color);\n}\n\n.fa-arrow-right:hover {\n  color: hsl(209, 90%, 27%);\n}\n\n.dish > .top {\n  overflow: hidden;\n  transition: 2s ease all;\n  border-radius: 8px;\n}\n\n.dish img {\n  border-radius: 8px;\n  width: 100%;\n  height: 270px;\n  transition: 2s ease all;\n  cursor: pointer;\n}\n\n.dish img:hover {\n  transform: scale(1.1);\n}\n\n.title h3 {\n  font-size: 1.4rem;\n  font-weight: 400;\n  margin: 0;\n  display: inline;\n  cursor: pointer;\n}\n\nh3:hover {\n  color: lightsalmon;\n}\n\n.fa-star {\n  color: orange;\n  font-size: 1.1rem;\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\n\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -152,7 +154,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, `*,
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  font-weight: 100;
   padding: 0;
 }
 
@@ -214,12 +215,13 @@ h2 {
 }
 
 p {
-  line-height: calc(1ex / 0.39);
   max-width: 100%;
   text-align: left;
+  line-height: 25px;
+  margin-top: 30px;
 }
 
-.content section:nth-child(1) {
+.home section:nth-child(1) {
   /* background-color: rgb(252, 229, 200); */
   height: 69vh;
   display: flex;
@@ -227,19 +229,19 @@ p {
   align-items: center;
 }
 
-.content section:nth-child(2) {
+.home section:nth-child(2) {
   margin-left: 50px;
   margin-right: 50px;
   padding-bottom: 10px;
 }
 
-.content section:nth-child(2) > .bottom {
+.home section:nth-child(2) > .bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   row-gap: 70px;
 }
-`, "",{"version":3,"sources":["webpack://./src/general.css"],"names":[],"mappings":"AAAA;;;EAGE,SAAS;EACT,sBAAsB;EACtB,uBAAuB;EACvB,gBAAgB;EAChB,UAAU;AACZ;;AAEA;EACE,oCAAoC;EACpC,kCAAkC;EAClC,mCAAmC;EACnC,6BAA6B;EAC7B,4BAA4B;EAC5B,wBAAwB;EACxB,kCAAkC;AACpC;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,SAAS;EACT,uBAAuB;EACvB,gBAAgB;EAChB,wBAAwB;EACxB,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;EACrB,cAAc;EACd,mBAAmB;AACrB;;AAEA;EACE,oBAAoB;EACpB,oBAAoB;EACpB,cAAc;EACd,gBAAgB;EAChB,aAAa;EACb,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,wBAAwB;EACxB,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,6BAA6B;EAC7B,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,yBAAyB;EACzB,yCAAyC;AAC3C;;AAEA;EACE,6BAA6B;EAC7B,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,0CAA0C;EAC1C,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;AACtB;;AAEA;EACE,aAAa;EACb,qCAAqC;EACrC,SAAS;EACT,aAAa;AACf","sourcesContent":["*,\n*::before,\n*::after {\n  margin: 0;\n  box-sizing: border-box;\n  font-family: sans-serif;\n  font-weight: 100;\n  padding: 0;\n}\n\n:root {\n  --standard-color: hsl(33, 100%, 88%);\n  --secondary-color: hsl(0, 0%, 11%);\n  --banner-color: hsl(203, 100%, 94%);\n  --font-color: hsl(0, 0%, 25%);\n  --dark-font: hsl(0, 0%, 19%);\n  --white-font: whitesmoke;\n  --hover-color: hsl(209, 100%, 17%);\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\nbody {\n  margin: 0;\n  font-family: sans-serif;\n  font-weight: 100;\n  color: var(--font-color);\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n  align-items: center;\n}\n\nbutton {\n  font-family: inherit;\n  font-weight: inherit;\n  color: inherit;\n  background: none;\n  padding: 10px;\n  border: none;\n  cursor: pointer;\n}\n\ni {\n  color: var(--font-color);\n  font-size: 2.3rem;\n  cursor: pointer;\n}\n\ni:hover {\n  /* color: var(--dark-font); */\n  color: var(--hover-color);\n}\n\nh2 {\n  font-weight: 500;\n  font-size: 2.1rem;\n  color: var(--hover-color);\n  font-family: Arial, Helvetica, sans-serif;\n}\n\np {\n  line-height: calc(1ex / 0.39);\n  max-width: 100%;\n  text-align: left;\n}\n\n.content section:nth-child(1) {\n  /* background-color: rgb(252, 229, 200); */\n  height: 69vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.content section:nth-child(2) {\n  margin-left: 50px;\n  margin-right: 50px;\n  padding-bottom: 10px;\n}\n\n.content section:nth-child(2) > .bottom {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 15px;\n  row-gap: 70px;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/general.css"],"names":[],"mappings":"AAAA;;;EAGE,SAAS;EACT,sBAAsB;EACtB,uBAAuB;EACvB,UAAU;AACZ;;AAEA;EACE,oCAAoC;EACpC,kCAAkC;EAClC,mCAAmC;EACnC,6BAA6B;EAC7B,4BAA4B;EAC5B,wBAAwB;EACxB,kCAAkC;AACpC;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,SAAS;EACT,uBAAuB;EACvB,gBAAgB;EAChB,wBAAwB;EACxB,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;EACrB,cAAc;EACd,mBAAmB;AACrB;;AAEA;EACE,oBAAoB;EACpB,oBAAoB;EACpB,cAAc;EACd,gBAAgB;EAChB,aAAa;EACb,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,wBAAwB;EACxB,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,6BAA6B;EAC7B,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,yBAAyB;EACzB,yCAAyC;AAC3C;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,0CAA0C;EAC1C,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;AACtB;;AAEA;EACE,aAAa;EACb,qCAAqC;EACrC,SAAS;EACT,aAAa;AACf","sourcesContent":["*,\n*::before,\n*::after {\n  margin: 0;\n  box-sizing: border-box;\n  font-family: sans-serif;\n  padding: 0;\n}\n\n:root {\n  --standard-color: hsl(33, 100%, 88%);\n  --secondary-color: hsl(0, 0%, 11%);\n  --banner-color: hsl(203, 100%, 94%);\n  --font-color: hsl(0, 0%, 25%);\n  --dark-font: hsl(0, 0%, 19%);\n  --white-font: whitesmoke;\n  --hover-color: hsl(209, 100%, 17%);\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\nbody {\n  margin: 0;\n  font-family: sans-serif;\n  font-weight: 100;\n  color: var(--font-color);\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n  align-items: center;\n}\n\nbutton {\n  font-family: inherit;\n  font-weight: inherit;\n  color: inherit;\n  background: none;\n  padding: 10px;\n  border: none;\n  cursor: pointer;\n}\n\ni {\n  color: var(--font-color);\n  font-size: 2.3rem;\n  cursor: pointer;\n}\n\ni:hover {\n  /* color: var(--dark-font); */\n  color: var(--hover-color);\n}\n\nh2 {\n  font-weight: 500;\n  font-size: 2.1rem;\n  color: var(--hover-color);\n  font-family: Arial, Helvetica, sans-serif;\n}\n\np {\n  max-width: 100%;\n  text-align: left;\n  line-height: 25px;\n  margin-top: 30px;\n}\n\n.home section:nth-child(1) {\n  /* background-color: rgb(252, 229, 200); */\n  height: 69vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.home section:nth-child(2) {\n  margin-left: 50px;\n  margin-right: 50px;\n  padding-bottom: 10px;\n}\n\n.home section:nth-child(2) > .bottom {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 15px;\n  row-gap: 70px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -339,102 +341,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/serving.jpg */ "./images/serving.jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../images/breakfast.jpg */ "./images/breakfast.jpg"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../images/dinner.webp */ "./images/dinner.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../images/brunch.jpg */ "./images/brunch.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../images/dinner.webp */ "./images/dinner.webp"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../images/brunch.jpg */ "./images/brunch.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
-var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
-var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `body .menupage {
-  background-color: aliceblue;
-  line-height: 20px;
-  margin-bottom: 20px;
-  overflow-x: hidden;
-}
-
-.heading {
+___CSS_LOADER_EXPORT___.push([module.id, `.menu {
   width: 100vw;
-  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(${___CSS_LOADER_URL_REPLACEMENT_0___});
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  transition: 2s ease all;
-  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
-  position: fixed;
-  top: 0;
+  line-height: 29px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  height: 150px;
-  margin-bottom: 10px;
-}
-
-.heading h1 {
-  color: white;
-  font-weight: 500;
-  font-size: 6rem;
-  letter-spacing: 0.5rem;
-  position: sticky;
-  top: 0;
-}
-
-.middle-section {
-  height: 50vh;
-  width: 100%;
-  margin-top: 250px;
+.menu-container {
+  width: 80%;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.middle-section > div {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.middle-section .food-pic {
-  height: 170px;
-  width: 170px;
-  border-radius: 100px;
-  background-color: lightcoral;
-  overflow: hidden;
-  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-
-.food-name {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-top: 10px;
-  margin-left: 45px;
-}
-
-.menu {
-  margin-top: 50px;
-  display: grid;
-  /* to add the media query just remove the grid template columns */
-  grid-template-columns: 1fr 1fr;
-  margin-left: 40px;
-  margin-right: 40px;
-  letter-spacing: 0.05rem;
 }
 
 .left-section {
@@ -467,10 +392,7 @@ section h4 {
 section .bottom-line {
   width: 380px;
   border: 1px dotted;
-}
-
-section .content {
-  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .food-container {
@@ -500,7 +422,7 @@ section .content {
   margin-right: 40px;
   align-self: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.75)),
-    url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+    url(${___CSS_LOADER_URL_REPLACEMENT_0___});
   background-size: cover;
   background-position: center;
   border-radius: 2px;
@@ -518,7 +440,7 @@ section .content {
   margin-right: 40px;
   align-self: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.447)),
-    url(${___CSS_LOADER_URL_REPLACEMENT_3___});
+    url(${___CSS_LOADER_URL_REPLACEMENT_1___});
   background-size: cover;
   background-position: center;
   border-radius: 2px;
@@ -528,21 +450,25 @@ section .content {
   margin-top: 40px;
 }
 
-.home-button {
-  width: 70px;
-  height: 40px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  font-weight: 400;
-  position: fixed;
-  top: 30%;
-  right: 0;
-  cursor: pointer;
+.middle-section {
+  border: 0.5px dotted grey;
+  margin-top: 100px;
+  height: 2020px;
 }
-`, "",{"version":3,"sources":["webpack://./src/menu.css"],"names":[],"mappings":"AAAA;EACE,2BAA2B;EAC3B,iBAAiB;EACjB,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB;2CAC4B;EAC5B,sBAAsB;EACtB,2BAA2B;EAC3B,4BAA4B;EAC5B,4BAA4B;EAC5B,uBAAuB;EACvB,8CAA8C;EAC9C,eAAe;EACf,MAAM;AACR;;AAEA;EACE,eAAe;EACf,MAAM;EACN,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,gBAAgB;EAChB,eAAe;EACf,sBAAsB;EACtB,gBAAgB;EAChB,MAAM;AACR;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,8BAA8B;EAC9B,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,oBAAoB;EACpB,4BAA4B;EAC5B,gBAAgB;EAChB,yDAA8C;EAC9C,sBAAsB;EACtB,2BAA2B;EAC3B,eAAe;AACjB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,iBAAiB;AACnB;;AAEA;EACE,gBAAgB;EAChB,aAAa;EACb,iEAAiE;EACjE,8BAA8B;EAC9B,iBAAiB;EACjB,kBAAkB;EAClB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,+BAA+B;EAC/B,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,yBAAyB;EACzB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,4BAA4B;EAC5B,aAAa;EACb,YAAY;EACZ,SAAS;EACT,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;EAClB;2CAC4B;EAC5B,sBAAsB;EACtB,2BAA2B;EAC3B,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,SAAS;EACT,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;EAClB;2CAC2B;EAC3B,sBAAsB;EACtB,2BAA2B;EAC3B,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,uBAAuB;EACvB,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;EACnB,gBAAgB;EAChB,eAAe;EACf,QAAQ;EACR,QAAQ;EACR,eAAe;AACjB","sourcesContent":["body .menupage {\n  background-color: aliceblue;\n  line-height: 20px;\n  margin-bottom: 20px;\n  overflow-x: hidden;\n}\n\n.heading {\n  width: 100vw;\n  height: 200px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),\n    url(../images/serving.jpg);\n  background-size: cover;\n  background-position: center;\n  background-attachment: fixed;\n  background-repeat: no-repeat;\n  transition: 2s ease all;\n  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);\n  position: fixed;\n  top: 0;\n}\n\n.sticky {\n  position: fixed;\n  top: 0;\n  height: 150px;\n  margin-bottom: 10px;\n}\n\n.heading h1 {\n  color: white;\n  font-weight: 500;\n  font-size: 6rem;\n  letter-spacing: 0.5rem;\n  position: sticky;\n  top: 0;\n}\n\n.middle-section {\n  height: 50vh;\n  width: 100%;\n  margin-top: 250px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding-left: 80px;\n  padding-right: 80px;\n}\n\n.middle-section > div {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n\n.middle-section .food-pic {\n  height: 170px;\n  width: 170px;\n  border-radius: 100px;\n  background-color: lightcoral;\n  overflow: hidden;\n  background-image: url(../images/breakfast.jpg);\n  background-size: cover;\n  background-position: center;\n  cursor: pointer;\n}\n\n.food-name {\n  font-size: 1.2rem;\n  font-weight: 400;\n  margin-top: 10px;\n  margin-left: 45px;\n}\n\n.menu {\n  margin-top: 50px;\n  display: grid;\n  /* to add the media query just remove the grid template columns */\n  grid-template-columns: 1fr 1fr;\n  margin-left: 40px;\n  margin-right: 40px;\n  letter-spacing: 0.05rem;\n}\n\n.left-section {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.right-section {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nsection {\n  margin-top: 100px;\n}\n\nsection .top-line {\n  width: 380px;\n  border: 1px solid;\n}\n\nsection h4 {\n  font-size: 1.7rem;\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\n\nsection .bottom-line {\n  width: 380px;\n  border: 1px dotted;\n}\n\nsection .content {\n  margin-top: 0;\n}\n\n.food-container {\n  display: grid;\n  grid-template-columns: 1fr 70px;\n  column-gap: 20px;\n  margin-top: 50px;\n}\n\n.food {\n  text-transform: uppercase;\n  font-size: 1.1rem;\n  margin-bottom: 20px;\n}\n\n.description {\n  width: 300px;\n  font-size: 0.8rem;\n}\n\n.right-section section:nth-child(2) {\n  /* background-color: blue; */\n  height: 380px;\n  width: 350px;\n  margin: 0;\n  margin-top: 20px;\n  margin-right: 40px;\n  align-self: center;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.75)),\n    url(../images/dinner.webp);\n  background-size: cover;\n  background-position: center;\n  border-radius: 2px;\n}\n\n.right-section section:nth-child(3) {\n  margin-top: 40px;\n}\n\n.left-section section:nth-child(3) {\n  height: 380px;\n  width: 350px;\n  margin: 0;\n  margin-top: 20px;\n  margin-right: 40px;\n  align-self: center;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.447)),\n    url(../images/brunch.jpg);\n  background-size: cover;\n  background-position: center;\n  border-radius: 2px;\n}\n\n.left-section section:nth-child(4) {\n  margin-top: 40px;\n}\n\n.home-button {\n  width: 70px;\n  height: 40px;\n  background-color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50px;\n  font-weight: 400;\n  position: fixed;\n  top: 30%;\n  right: 0;\n  cursor: pointer;\n}\n"],"sourceRoot":""}]);
+
+.menu .right-section,
+.menu .left-section {
+  margin-top: -100px;
+}
+
+.middle-section {
+  margin-top: 20px;
+}
+
+.menu .bottom-line {
+  margin-bottom: -100px;
+}
+`, "",{"version":3,"sources":["webpack://./src/menu.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,UAAU;EACV,aAAa;EACb,8BAA8B;EAC9B,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,+BAA+B;EAC/B,gBAAgB;EAChB,gBAAgB;AAClB;;AAEA;EACE,yBAAyB;EACzB,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,4BAA4B;EAC5B,aAAa;EACb,YAAY;EACZ,SAAS;EACT,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;EAClB;2CAC4B;EAC5B,sBAAsB;EACtB,2BAA2B;EAC3B,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,SAAS;EACT,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;EAClB;2CAC2B;EAC3B,sBAAsB;EACtB,2BAA2B;EAC3B,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,yBAAyB;EACzB,iBAAiB;EACjB,cAAc;AAChB;;AAEA;;EAEE,kBAAkB;AACpB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;AACvB","sourcesContent":[".menu {\n  width: 100vw;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  line-height: 29px;\n}\n\n.menu-container {\n  width: 80%;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.left-section {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.right-section {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\nsection {\n  margin-top: 100px;\n}\n\nsection .top-line {\n  width: 380px;\n  border: 1px solid;\n}\n\nsection h4 {\n  font-size: 1.7rem;\n  margin-top: 10px;\n  margin-bottom: 10px;\n}\n\nsection .bottom-line {\n  width: 380px;\n  border: 1px dotted;\n  margin-bottom: 50px;\n}\n\n.food-container {\n  display: grid;\n  grid-template-columns: 1fr 70px;\n  column-gap: 20px;\n  margin-top: 50px;\n}\n\n.food {\n  text-transform: uppercase;\n  font-size: 1.1rem;\n  margin-bottom: 20px;\n}\n\n.description {\n  width: 300px;\n  font-size: 0.8rem;\n}\n\n.right-section section:nth-child(2) {\n  /* background-color: blue; */\n  height: 380px;\n  width: 350px;\n  margin: 0;\n  margin-top: 20px;\n  margin-right: 40px;\n  align-self: center;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.75)),\n    url(../images/dinner.webp);\n  background-size: cover;\n  background-position: center;\n  border-radius: 2px;\n}\n\n.right-section section:nth-child(3) {\n  margin-top: 40px;\n}\n\n.left-section section:nth-child(3) {\n  height: 380px;\n  width: 350px;\n  margin: 0;\n  margin-top: 20px;\n  margin-right: 40px;\n  align-self: center;\n  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.447)),\n    url(../images/brunch.jpg);\n  background-size: cover;\n  background-position: center;\n  border-radius: 2px;\n}\n\n.left-section section:nth-child(4) {\n  margin-top: 40px;\n}\n\n.middle-section {\n  border: 0.5px dotted grey;\n  margin-top: 100px;\n  height: 2020px;\n}\n\n.menu .right-section,\n.menu .left-section {\n  margin-top: -100px;\n}\n\n.middle-section {\n  margin-top: 20px;\n}\n\n.menu .bottom-line {\n  margin-bottom: -100px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1266,16 +1192,6 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./images/breakfast.jpg":
-/*!******************************!*\
-  !*** ./images/breakfast.jpg ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "9a0ede94b8f22e76e67e.jpg";
-
-/***/ }),
-
 /***/ "./images/brunch.jpg":
 /*!***************************!*\
   !*** ./images/brunch.jpg ***!
@@ -1293,16 +1209,6 @@ module.exports = __webpack_require__.p + "f74ee580d4684144e302.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "3b48b290fb6ba8385093.webp";
-
-/***/ }),
-
-/***/ "./images/serving.jpg":
-/*!****************************!*\
-  !*** ./images/serving.jpg ***!
-  \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "5a6c0351a4852ac824be.jpg";
 
 /***/ })
 
@@ -1460,39 +1366,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const contentSection = document.getElementById("content");
 const homeButton = document.getElementById("home");
-const aboutButton = document.getElementById("about");
-const menuButton = document.getElementById("menu");
-const backHomeButton = document.querySelector(".home-button");
-const contactButton = document.getElementById("contact");
-const headingSection = document.querySelector(".heading");
-window.addEventListener("scroll", () => {
-  headingSection.classList.toggle("sticky", window.scrollY > 0);
-});
+const menuButton = document.getElementById("menuButton");
+menuButton.addEventListener("click", renderMenuContents);
 homeButton.addEventListener("click", renderHomePage);
-menuButton.addEventListener("click", renderMenuPage);
-backHomeButton.addEventListener("click", renderHomePage);
-function renderHomePage() {
-  document.body.innerHTML = `
-        <header>
-      <div class="left">
-        <i class="fa-solid fa-bowl-food"></i>
-        <div class="name">Foodies</div>
-      </div>
-      <div class="right">
-        <nav>
-          <button>Home</button>
-          <button>About Us</button>
-          <button>Menu</button>
-          <button>Contact</button>
-        </nav>
-      </div>
-    </header>
-    <div id="content" class="content">
-      <section class="section">
+if (contentSection.innerHTML === "") {
+  contentSection.classList.add("home");
+  contentSection.innerHTML = `
+          <section class="section">
         <div class="banner">
           <div class="left">
-            <img src="../images/dinning.jpg" class="menu1" alt="" />
+            <img src="/../images/dinning.jpg" class="menu1" alt="" />
           </div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
@@ -1514,7 +1399,7 @@ function renderHomePage() {
         <div class="bottom">
           <div class="dish">
             <div class="top">
-              <img src="../images/breakfast.jpg" alt="" />
+              <img src="/../images/breakfast.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -1531,7 +1416,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="../images/brunch.jpg" alt="" />
+              <img src="/../images/brunch.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -1548,7 +1433,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="../images/dinner.webp" alt="" />
+              <img src="/../images/dinner.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -1565,7 +1450,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="../images/dessert.jpg" alt="" />
+              <img src="/../images/dessert.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -1582,7 +1467,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="../images/wines.webp" alt="" />
+              <img src="/../images/wines.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -1599,7 +1484,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="../images/snacks.webp" alt="" />
+              <img src="/../images/snacks.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -1616,312 +1501,414 @@ function renderHomePage() {
           </div>
         </div>
       </section>
-    </div>
-    <script src="main.js"></script>
   `;
 }
-function renderMenuPage() {
-  document.querySelector("body").classList.add("menupage");
-  document.body.innerHTML = `
-  <div class="menupage">
-        <div class="heading">
-      <h1>Food Menu</h1>
-    </div>
-    <div class="home-button">Home</div>
-    <div class="middle-section">
-      <a href="#breakfast">
-        <div>
-          <div class="food-pic"></div>
-          <div class="food-name">Breakfast</div>
-        </div>
-      </a>
-      <a href="#brunch">
-        <div>
-          <div class="food-pic"></div>
-          <div class="food-name">Brunch</div>
-        </div>
-      </a>
-      <a href="#dinner">
-        <div>
-          <div class="food-pic"></div>
-          <div class="food-name">Dinner</div>
-        </div>
-      </a>
-      <a href="#wines">
-        <div>
-          <div class="food-pic"></div>
-          <div class="food-name">Wines</div>
-        </div>
-      </a>
-    </div>
-    <div class="menu">
-      <div class="left-section">
-        <section id="breakfast">
-          <div class="top-line"></div>
-          <h4>Breakfast</h4>
-          <div class="bottom-line"></div>
-          <div class="content">
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
+function renderHomePage() {
+  document.body.style = `background-color: white;`;
+  contentSection.classList.add("home");
+  contentSection.innerHTML = `
+    <section class="section">
+        <div class="banner">
+          <div class="left">
+            <img src="/../images/dinning.jpg" class="menu1" alt="" />
+          </div>
+          <div class="right">
+            <h2>Welcome To Foodies Restuarant</h2>
+            <p>
+              Where every bite is a symphony of flavors, artfully crafted to
+              delight. Immerse yourself in a culinary adventure of elegance and
+              taste perfection. Your extraordinary dining experience begins here
+            </p>
+            <div class="arrow">
+              <i class="fa-solid fa-arrow-right"></i>
             </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="top">
+          <h2 class= "dishes-title">Dishes</h2>
+        </div>
+        <div class="bottom">
+          <div class="dish">
+            <div class="top">
+              <img src="/../images/breakfast.jpg" alt="" />
             </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
+            <div class="bottom">
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
               </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
+              <div class="title">
+                <h3>Breakfast</h3>
               </div>
             </div>
           </div>
-        </section>
-        <section id="brunch">
-          <div class="top-line"></div>
-          <h4>Brunch</h4>
-          <div class="bottom-line"></div>
-          <div class="content">
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
+          <div class="dish">
+            <div class="top">
+              <img src="/../images/brunch.jpg" alt="" />
             </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
+            <div class="bottom">
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
               </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
+              <div class="title">
+                <h3>Brunch</h3>
               </div>
             </div>
           </div>
-        </section>
-        <section></section>
-        <section>
-          <div class="top-line"></div>
-          <h4>Snacks and Fries</h4>
-          <div class="bottom-line"></div>
-          <div class="content">
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
+          <div class="dish">
+            <div class="top">
+              <img src="/../images/dinner.webp" alt="" />
             </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
+            <div class="bottom">
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
               </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
+              <div class="title">
+                <h3>Dinner</h3>
               </div>
             </div>
           </div>
-        </section>
+          <div class="dish">
+            <div class="top">
+              <img src="/../images/dessert.jpg" alt="" />
+            </div>
+            <div class="bottom">
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="title">
+                <h3>Desserts</h3>
+              </div>
+            </div>
+          </div>
+          <div class="dish">
+            <div class="top">
+              <img src="/../images/wines.webp" alt="" />
+            </div>
+            <div class="bottom">
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="title">
+                <h3>Wines and Beverages</h3>
+              </div>
+            </div>
+          </div>
+          <div class="dish">
+            <div class="top">
+              <img src="/../images/snacks.webp" alt="" />
+            </div>
+            <div class="bottom">
+              <div class="icons">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="title">
+                <h3>Snacks</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  `;
+}
+function renderMenuContents() {
+  contentSection.classList.remove("home");
+  document.body.style = `background-color: aliceblue;`;
+  contentSection.innerHTML = `
+        <div class="menu">
+      <div class="menu-container">
+        <div class="left-section">
+          <section id="breakfast">
+            <div class="top-line"></div>
+            <h4>Breakfast</h4>
+            <div class="bottom-line"></div>
+            <div class="content">
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="brunch">
+            <div class="top-line"></div>
+            <h4>Brunch</h4>
+            <div class="bottom-line"></div>
+            <div class="content">
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section></section>
+          <section>
+            <div class="top-line"></div>
+            <h4>Snacks and Fries</h4>
+            <div class="bottom-line"></div>
+            <div class="content">
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="middle-section"></div>
+        <div class="right-section">
+          <section id="dinner">
+            <div class="top-line"></div>
+            <h4>Dinner</h4>
+            <div class="bottom-line"></div>
+            <div class="content">
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section></section>
+          <section>
+            <div class="top-line"></div>
+            <h4>Desserts</h4>
+            <div class="bottom-line"></div>
+            <div class="content">
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="wines">
+            <div class="top-line"></div>
+            <h4>Beverages</h4>
+            <div class="bottom-line"></div>
+            <div class="content">
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+              <div class="food-container">
+                <div class="left">
+                  <div class="food">Chicken Soup</div>
+                  <div class="description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facilis distinctio modi nisi incidunt recusandae neque.
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="price">$4 .56</div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-      <div class="right-section">
-        <section id="dinner">
-          <div class="top-line"></div>
-          <h4>Dinner</h4>
-          <div class="bottom-line"></div>
-          <div class="content">
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section></section>
-        <section>
-          <div class="top-line"></div>
-          <h4>Desserts</h4>
-          <div class="bottom-line"></div>
-          <div class="content">
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="wines">
-          <div class="top-line"></div>
-          <h4>Beverages</h4>
-          <div class="bottom-line"></div>
-          <div class="content">
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-            <div class="food-container">
-              <div class="left">
-                <div class="food">Chicken Soup</div>
-                <div class="description">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Facilis distinctio modi nisi incidunt recusandae neque.
-                </div>
-              </div>
-              <div class="right">
-                <div class="price">$4 .56</div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
     </div>
-    </div>
-    <script src="main.js"></script>
   `;
 }
 })();

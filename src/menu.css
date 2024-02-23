@@ -1,89 +1,16 @@
-body .menupage {
-  background-color: aliceblue;
-  line-height: 20px;
-  margin-bottom: 20px;
-  overflow-x: hidden;
-}
-
-.heading {
-  width: 100vw;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/serving.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  transition: 2s ease all;
-  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
-  position: fixed;
-  top: 0;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  height: 150px;
-  margin-bottom: 10px;
-}
-
-.heading h1 {
-  color: white;
-  font-weight: 500;
-  font-size: 6rem;
-  letter-spacing: 0.5rem;
-  position: sticky;
-  top: 0;
-}
-
-.middle-section {
-  height: 50vh;
-  width: 100%;
-  margin-top: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.middle-section > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.middle-section .food-pic {
-  height: 170px;
-  width: 170px;
-  border-radius: 100px;
-  background-color: lightcoral;
-  overflow: hidden;
-  background-image: url(../images/breakfast.jpg);
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-
-.food-name {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-top: 10px;
-  margin-left: 45px;
-}
-
 .menu {
-  margin-top: 50px;
-  display: grid;
-  /* to add the media query just remove the grid template columns */
-  grid-template-columns: 1fr 1fr;
-  margin-left: 40px;
-  margin-right: 40px;
-  letter-spacing: 0.05rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 29px;
+}
+
+.menu-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .left-section {
@@ -116,10 +43,7 @@ section h4 {
 section .bottom-line {
   width: 380px;
   border: 1px dotted;
-}
-
-section .content {
-  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .food-container {
@@ -177,17 +101,21 @@ section .content {
   margin-top: 40px;
 }
 
-.home-button {
-  width: 70px;
-  height: 40px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  font-weight: 400;
-  position: fixed;
-  top: 30%;
-  right: 0;
-  cursor: pointer;
+.middle-section {
+  border: 0.5px dotted grey;
+  margin-top: 100px;
+  height: 2020px;
+}
+
+.menu .right-section,
+.menu .left-section {
+  margin-top: -100px;
+}
+
+.middle-section {
+  margin-top: 20px;
+}
+
+.menu .bottom-line {
+  margin-bottom: -100px;
 }
