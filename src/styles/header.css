@@ -1,6 +1,6 @@
 header {
-  /* background-color: aliceblue; */
-  background-color: white;
+  background-color: aliceblue;
+  /* background-color: white; */
   position: fixed;
   top: 0;
   right: 0;
@@ -22,10 +22,14 @@ header .left {
 }
 
 .name {
-  font-size: 1.3rem;
-  font-weight: 400;
+  font-size: 1.5rem;
   margin-left: 40px;
   cursor: pointer;
+  /* color: var(--hover-color); */
+}
+
+.name:hover {
+  color: var(--hover-color);
 }
 
 header .right {
@@ -38,10 +42,19 @@ header nav {
 }
 
 header nav button {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1rem;
 }
 
 header nav button:hover {
   color: hsl(209, 100%, 17%);
+}
+
+header > .left .fa-bowl-food {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+header > .left .fa-bowl-food:hover {
+  color: var(--hover-color);
 }

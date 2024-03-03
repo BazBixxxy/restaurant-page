@@ -1,9 +1,12 @@
-import "./general.css";
-import "./header.css";
-import "./content.css";
-import "./menu.css";
-import "./style.css";
-import "../images";
+import "./styles/general.css";
+import "./styles/header.css";
+import "./styles/content.css";
+import "./styles/menu.css";
+import "./styles/about.css";
+import "@fortawesome/fontawesome-free/js/fontawesome";
+import "@fortawesome/fontawesome-free/js/solid";
+import "@fortawesome/fontawesome-free/js/regular";
+import "@fortawesome/fontawesome-free/js/brands";
 
 const contentSection = document.getElementById("content");
 const homeButton = document.getElementById("home");
@@ -14,11 +17,14 @@ homeButton.addEventListener("click", renderHomePage);
 
 if (contentSection.innerHTML === "") {
   contentSection.classList.add("home");
+  document.querySelector("header").style = `
+  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
+  `;
   contentSection.innerHTML = `
-          <section class="section">
+      <section class="section">
         <div class="banner">
           <div class="left">
-            <img src="images/dinning.jpg" class="menu1" alt="" />
+            <img src="../images/dinning.jpg" class="menu1" alt="" />
           </div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
@@ -40,7 +46,7 @@ if (contentSection.innerHTML === "") {
         <div class="bottom">
           <div class="dish">
             <div class="top">
-              <img src="images/breakfast.jpg" alt="" />
+              <img src="../images/breakfast.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -57,7 +63,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/brunch.jpg" alt="" />
+              <img src="../images/brunch.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -74,7 +80,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/dinner.webp" alt="" />
+              <img src="../images/dinner.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -91,7 +97,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/dessert.jpg" alt="" />
+              <img src="../images/dessert.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -108,7 +114,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/wines.webp" alt="" />
+              <img src="../images/wines.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -125,7 +131,7 @@ if (contentSection.innerHTML === "") {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/snacks.webp" alt="" />
+              <img src="../images/snacks.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -147,12 +153,15 @@ if (contentSection.innerHTML === "") {
 
 function renderHomePage() {
   document.body.style = `background-color: white;`;
+  document.querySelector("header").style = `
+  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
+  `;
   contentSection.classList.add("home");
   contentSection.innerHTML = `
     <section class="section">
         <div class="banner">
           <div class="left">
-            <img src="images/dinning.jpg" class="menu1" alt="" />
+            <img src="../images/dinning.jpg" class="menu1" alt="" />
           </div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
@@ -174,7 +183,7 @@ function renderHomePage() {
         <div class="bottom">
           <div class="dish">
             <div class="top">
-              <img src="images/breakfast.jpg" alt="" />
+              <img src="../images/breakfast.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -191,7 +200,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/brunch.jpg" alt="" />
+              <img src="../images/brunch.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -208,7 +217,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/dinner.webp" alt="" />
+              <img src="../images/dinner.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -225,7 +234,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/dessert.jpg" alt="" />
+              <img src="../images/dessert.jpg" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -242,7 +251,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/wines.webp" alt="" />
+              <img src="../images/wines.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -259,7 +268,7 @@ function renderHomePage() {
           </div>
           <div class="dish">
             <div class="top">
-              <img src="images/snacks.webp" alt="" />
+              <img src="../images/snacks.webp" alt="" />
             </div>
             <div class="bottom">
               <div class="icons">
@@ -281,6 +290,9 @@ function renderHomePage() {
 
 function renderMenuContents() {
   contentSection.classList.remove("home");
+  document.querySelector("header").style = `
+  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
+  `;
   document.body.style = `background-color: aliceblue;`;
   contentSection.innerHTML = `
         <div class="menu">

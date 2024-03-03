@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "calligraphic";
+  src: url(../../src/fonts/Calligraphy.ttf);
+}
+
+.contact-banner {
+  margin-top: -50px;
+  height: 55vh;
+  /* background-color: aliceblue; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../images/serving.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.contact-banner h2 {
+  color: whitesmoke;
+}
+
+.contact-banner p {
+  width: 80ch;
+  line-height: 27px;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.contact-banner button {
+  font-size: 1rem;
+  border-radius: 40px;
+  border: 0.01px solid rgb(255, 239, 241);
+  padding: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  position: absolute;
+  bottom: 35px;
+}
+
+.contact-banner button:hover {
+  border: none;
+}
+
+.about-banner {
+  height: 30.2vh;
+  /* background-color: lightskyblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-banner > .top {
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-banner > .top .left-line {
+  border: 0.5px solid lightgrey;
+  height: 0.5px;
+  width: 100px;
+}
+
+.about-banner > .top .right-line {
+  border: 0.5px solid lightgrey;
+  height: 0.5px;
+  width: 100px;
+}
+
+.about-banner h2 {
+  font-weight: 100;
+  font-family: "calligraphic";
+  font-size: 2.2rem;
+  letter-spacing: .2rem;
+  color: rgb(52, 52, 52);
+  margin: 0;
+}
+
+.about-banner p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-banner .bottom {
+  display: flex;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-facebook,
+.fa-instagram,
+.fa-x-twitter {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}

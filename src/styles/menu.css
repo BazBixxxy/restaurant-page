@@ -72,8 +72,8 @@ section .bottom-line {
   margin-top: 20px;
   margin-right: 40px;
   align-self: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.75)),
-    url(../images/dinner.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.418)),
+    url(../../images/dinner.webp);
   background-size: cover;
   background-position: center;
   border-radius: 2px;
@@ -90,8 +90,8 @@ section .bottom-line {
   margin-top: 20px;
   margin-right: 40px;
   align-self: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.447)),
-    url(../images/brunch.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.239)),
+    url(../../images/brunch.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 2px;

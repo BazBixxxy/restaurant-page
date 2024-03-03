@@ -36,6 +36,7 @@
 
 .banner .right p {
   font-size: 1.12rem;
+  font-weight: 100;
 }
 
 .arrow {
@@ -96,6 +97,9 @@ h3:hover {
   font-size: 1.1rem;
   margin-top: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
-
+.fa-star:hover {
+  color: var(--hover-color);
+}
