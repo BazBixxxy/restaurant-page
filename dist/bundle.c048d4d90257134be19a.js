@@ -6263,13 +6263,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
+
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../images/dinning.jpg */ "./images/dinning.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../images/dinner.webp */ "./images/dinner.webp"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../images/brunch.jpg */ "./images/brunch.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `.banner {
   background-color: var(--banner-color);
+  height: 400px;
   max-width: 1000px;
   border-radius: 20px;
   color: var(--primary-color);
@@ -6277,29 +6287,34 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.banner {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: relative;
 }
 
 .banner > .left {
   width: 60%;
-  
-}
-
-.banner > .left img {
-  width: 100%;
-  /* height: 100%; */
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: 100%;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+  background-position: center;
+  background-size: cover;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
+/* .banner > .left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+} */
+
 .banner > .right {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin-left: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -6322,11 +6337,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.banner {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   cursor: pointer;
   display: none;
 }
@@ -6340,15 +6355,85 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.banner {
   color: hsl(209, 90%, 27%);
 }
 
-.dish > .top {
+.dish > .top:first-child {
   overflow: hidden;
   -webkit-transition: 2s ease all;
   -o-transition: 2s ease all;
   transition: 2s ease all;
   border-radius: 8px;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 10px;
 }
 
-.dish img {
+.dish > .top:nth-child(2) {
+  overflow: hidden;
+  -webkit-transition: 2s ease all;
+  -o-transition: 2s ease all;
+  transition: 2s ease all;
+  border-radius: 8px;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.dish > .top:nth-child(3) {
+  overflow: hidden;
+  -webkit-transition: 2s ease all;
+  -o-transition: 2s ease all;
+  transition: 2s ease all;
+  border-radius: 8px;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.dish > .top:nth-child(4) {
+  overflow: hidden;
+  -webkit-transition: 2s ease all;
+  -o-transition: 2s ease all;
+  transition: 2s ease all;
+  border-radius: 8px;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.dish > .top:nth-child(5) {
+  overflow: hidden;
+  -webkit-transition: 2s ease all;
+  -o-transition: 2s ease all;
+  transition: 2s ease all;
+  border-radius: 8px;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+.dish > .top:nth-child(6) {
+  overflow: hidden;
+  -webkit-transition: 2s ease all;
+  -o-transition: 2s ease all;
+  transition: 2s ease all;
+  border-radius: 8px;
+  background-image: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
+  background-position: center;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 10px;
+}
+
+/* .dish img {
   border-radius: 8px;
   width: 100%;
   height: 270px;
@@ -6356,12 +6441,12 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.banner {
   -o-transition: 2s ease all;
   transition: 2s ease all;
   cursor: pointer;
-}
+} */
 
 .dish img:hover {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .title h3 {
@@ -6383,7 +6468,7 @@ h3:hover {
   margin-bottom: 10px;
   cursor: pointer;
 }
-`, "",{"version":3,"sources":["webpack://./src/styles/content.css"],"names":[],"mappings":"AAAA;EACE,qCAAqC;EACrC,iBAAiB;EACjB,mBAAmB;EACnB,2BAA2B;EAC3B,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,kBAAkB;AACpB;;AAEA;EACE,UAAU;;AAEZ;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,oBAAoB;KACjB,iBAAiB;EACpB,4BAA4B;EAC5B,+BAA+B;AACjC;;AAEA;EACE,mBAAmB;MACf,WAAW;UACP,OAAO;EACf,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,SAAS;EACT,uBAAuB;EACvB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,wBAAwB;MACpB,qBAAqB;UACjB,uBAAuB;EAC/B,eAAe;EACf,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,aAAa;EACb,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,6BAA6B;MACzB,yBAAyB;UACrB,qBAAqB;AAC/B;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,SAAS;EACT,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;EACnB,eAAe;AACjB","sourcesContent":[".banner {\n  background-color: var(--banner-color);\n  max-width: 1000px;\n  border-radius: 20px;\n  color: var(--primary-color);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  position: relative;\n}\n\n.banner > .left {\n  width: 60%;\n  \n}\n\n.banner > .left img {\n  width: 100%;\n  /* height: 100%; */\n  -o-object-fit: cover;\n     object-fit: cover;\n  border-top-left-radius: 20px;\n  border-bottom-left-radius: 20px;\n}\n\n.banner > .right {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n  margin-left: 20px;\n  padding-left: 10px;\n  padding-right: 10px;\n}\n\n.banner .right p {\n  font-size: 1.12rem;\n  font-weight: 100;\n}\n\n.arrow {\n  position: absolute;\n  bottom: 3%;\n  right: 3%;\n  background-color: white;\n  width: 40px;\n  height: 40px;\n  border-radius: 50px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  cursor: pointer;\n  display: none;\n}\n\n.fa-arrow-right {\n  font-size: 1.6rem;\n  color: var(--hover-color);\n}\n\n.fa-arrow-right:hover {\n  color: hsl(209, 90%, 27%);\n}\n\n.dish > .top {\n  overflow: hidden;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  border-radius: 8px;\n}\n\n.dish img {\n  border-radius: 8px;\n  width: 100%;\n  height: 270px;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  cursor: pointer;\n}\n\n.dish img:hover {\n  -webkit-transform: scale(1.1);\n      -ms-transform: scale(1.1);\n          transform: scale(1.1);\n}\n\n.title h3 {\n  font-size: 1.4rem;\n  font-weight: 400;\n  margin: 0;\n  display: inline;\n  cursor: pointer;\n}\n\nh3:hover {\n  color: lightsalmon;\n}\n\n.fa-star {\n  color: orange;\n  font-size: 1.1rem;\n  margin-top: 10px;\n  margin-bottom: 10px;\n  cursor: pointer;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/styles/content.css"],"names":[],"mappings":"AAAA;EACE,qCAAqC;EACrC,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,2BAA2B;EAC3B,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;EACzB,sBAAsB;EACtB,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,yDAA+C;EAC/C,2BAA2B;EAC3B,sBAAsB;EACtB,4BAA4B;EAC5B,+BAA+B;AACjC;;AAEA;;;;;;;GAOG;;AAEH;EACE,mBAAmB;EACnB,WAAW;EACX,OAAO;EACP,iBAAiB;EACjB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,SAAS;EACT,uBAAuB;EACvB,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;EACzB,sBAAsB;EACtB,mBAAmB;EACnB,wBAAwB;EACxB,qBAAqB;EACrB,uBAAuB;EACvB,eAAe;EACf,aAAa;AACf;;AAEA;EACE,iBAAiB;EACjB,yBAAyB;AAC3B;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,kBAAkB;EAClB,yDAA+C;EAC/C,2BAA2B;EAC3B,sBAAsB;EACtB,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,kBAAkB;EAClB,yDAA8C;EAC9C,2BAA2B;EAC3B,sBAAsB;EACtB,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,kBAAkB;EAClB,yDAA+C;EAC/C,2BAA2B;EAC3B,sBAAsB;EACtB,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,kBAAkB;EAClB,yDAA8C;EAC9C,2BAA2B;EAC3B,sBAAsB;EACtB,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,kBAAkB;EAClB,yDAA8C;EAC9C,2BAA2B;EAC3B,sBAAsB;EACtB,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;EACvB,kBAAkB;EAClB,yDAA8C;EAC9C,2BAA2B;EAC3B,sBAAsB;EACtB,aAAa;EACb,mBAAmB;AACrB;;AAEA;;;;;;;;GAQG;;AAEH;EACE,6BAA6B;EAC7B,yBAAyB;EACzB,qBAAqB;AACvB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,SAAS;EACT,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;EACnB,eAAe;AACjB","sourcesContent":[".banner {\n  background-color: var(--banner-color);\n  height: 400px;\n  max-width: 1000px;\n  border-radius: 20px;\n  color: var(--primary-color);\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  position: relative;\n}\n\n.banner > .left {\n  width: 60%;\n  height: 100%;\n  background-image: url(../../images/dinning.jpg);\n  background-position: center;\n  background-size: cover;\n  border-top-left-radius: 20px;\n  border-bottom-left-radius: 20px;\n}\n\n/* .banner > .left img {\n  width: 100%;\n  height: 100%;\n  -o-object-fit: cover;\n  object-fit: cover;\n  border-top-left-radius: 20px;\n  border-bottom-left-radius: 20px;\n} */\n\n.banner > .right {\n  -webkit-box-flex: 1;\n  -ms-flex: 1;\n  flex: 1;\n  margin-left: 20px;\n  padding-left: 10px;\n  padding-right: 10px;\n}\n\n.banner .right p {\n  font-size: 1.12rem;\n  font-weight: 100;\n}\n\n.arrow {\n  position: absolute;\n  bottom: 3%;\n  right: 3%;\n  background-color: white;\n  width: 40px;\n  height: 40px;\n  border-radius: 50px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  cursor: pointer;\n  display: none;\n}\n\n.fa-arrow-right {\n  font-size: 1.6rem;\n  color: var(--hover-color);\n}\n\n.fa-arrow-right:hover {\n  color: hsl(209, 90%, 27%);\n}\n\n.dish > .top:first-child {\n  overflow: hidden;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  border-radius: 8px;\n  background-image: url(../../images/dinner.webp);\n  background-position: center;\n  background-size: cover;\n  height: 280px;\n  margin-bottom: 10px;\n}\n\n.dish > .top:nth-child(2) {\n  overflow: hidden;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  border-radius: 8px;\n  background-image: url(../../images/brunch.jpg);\n  background-position: center;\n  background-size: cover;\n  height: 280px;\n  margin-bottom: 10px;\n}\n\n.dish > .top:nth-child(3) {\n  overflow: hidden;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  border-radius: 8px;\n  background-image: url(../../images/dinner.webp);\n  background-position: center;\n  background-size: cover;\n  height: 280px;\n  margin-bottom: 10px;\n}\n\n.dish > .top:nth-child(4) {\n  overflow: hidden;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  border-radius: 8px;\n  background-image: url(../../images/brunch.jpg);\n  background-position: center;\n  background-size: cover;\n  height: 280px;\n  margin-bottom: 10px;\n}\n\n.dish > .top:nth-child(5) {\n  overflow: hidden;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  border-radius: 8px;\n  background-image: url(../../images/brunch.jpg);\n  background-position: center;\n  background-size: cover;\n  height: 280px;\n  margin-bottom: 10px;\n}\n\n.dish > .top:nth-child(6) {\n  overflow: hidden;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  border-radius: 8px;\n  background-image: url(../../images/brunch.jpg);\n  background-position: center;\n  background-size: cover;\n  height: 280px;\n  margin-bottom: 10px;\n}\n\n/* .dish img {\n  border-radius: 8px;\n  width: 100%;\n  height: 270px;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n  cursor: pointer;\n} */\n\n.dish img:hover {\n  -webkit-transform: scale(1.1);\n  -ms-transform: scale(1.1);\n  transform: scale(1.1);\n}\n\n.title h3 {\n  font-size: 1.4rem;\n  font-weight: 400;\n  margin: 0;\n  display: inline;\n  cursor: pointer;\n}\n\nh3:hover {\n  color: lightsalmon;\n}\n\n.fa-star {\n  color: orange;\n  font-size: 1.1rem;\n  margin-top: 10px;\n  margin-bottom: 10px;\n  cursor: pointer;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6420,7 +6505,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `*,
 *::after {
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: sans-serif;
   font-weight: 100;
   padding: 0;
@@ -6450,6 +6535,16 @@ ___CSS_LOADER_EXPORT___.push([module.id, `*,
   --header-background: hsl(0, 0%, 7%);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: whitesmoke;
+    --secondary-color: hsl(0, 0%, 25%);
+    --banner-color: hsl(211, 53%, 16%);
+    --hover-color: hsl(208, 78%, 9%);
+    --header-background: hsl(0, 0%, 7%);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -6460,14 +6555,15 @@ body {
   background-color: var(--header-background);
   overflow-x: hidden;
   overflow-y: auto;
+  transition: 1s ease all;
 }
 
 a {
   text-decoration: none;
   color: inherit;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 button {
@@ -6510,11 +6606,11 @@ p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 150px;
 }
 
@@ -6523,6 +6619,7 @@ p {
   margin-right: 50px;
   padding-bottom: 30px;
 }
+
 
 .home section:nth-child(2) > .bottom {
   display: -ms-grid;
@@ -6548,7 +6645,8 @@ p {
   top: 0;
   bottom: 0;
   z-index: 10000;
-}`, "",{"version":3,"sources":["webpack://./src/styles/general.css"],"names":[],"mappings":"AAAA;;;EAGE,SAAS;EACT,8BAA8B;UACtB,sBAAsB;EAC9B,uBAAuB;EACvB,gBAAgB;EAChB,UAAU;AACZ;;AAEA;EACE,gCAAgC;EAChC,6BAA6B;EAC7B,yBAAyB;EACzB,kCAAkC;EAClC,0BAA0B;AAC5B;;AAEA;EACE,gCAAgC;EAChC,6BAA6B;EAC7B,yBAAyB;EACzB,kCAAkC;EAClC,0BAA0B;AAC5B;;AAEA;EACE,2BAA2B;EAC3B,kCAAkC;EAClC,kCAAkC;EAClC,gCAAgC;EAChC,mCAAmC;AACrC;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,SAAS;EACT,2BAA2B;EAC3B,0CAA0C;EAC1C,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;EACrB,cAAc;EACd,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;AAC7B;;AAEA;EACE,oBAAoB;EACpB,oBAAoB;EACpB,2BAA2B;EAC3B,gBAAgB;EAChB,aAAa;EACb,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,2BAA2B;EAC3B,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,2BAA2B;EAC3B,yCAAyC;AAC3C;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;EACjB,gBAAgB;EAChB,iBAAiB;AACnB;;AAEA;EACE,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,wBAAwB;MACpB,qBAAqB;UACjB,uBAAuB;EAC/B,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;AACtB;;AAEA;EACE,iBAAiB;EACjB,aAAa;EACb,4DAA4D;EAC5D,SAAS;AACX;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,0EAA+D;EAC/D,oBAAoB;EACpB,cAAc;EACd,WAAW;EACX,eAAe;EACf,MAAM;EACN,SAAS;EACT,cAAc;AAChB","sourcesContent":["*,\n*::before,\n*::after {\n  margin: 0;\n  -webkit-box-sizing: border-box;\n          box-sizing: border-box;\n  font-family: sans-serif;\n  font-weight: 100;\n  padding: 0;\n}\n\n:root {\n  --primary-color: hsl(0, 0%, 25%);\n  --secondary-color: whitesmoke;\n  --banner-color: aliceblue;\n  --hover-color: hsl(209, 100%, 17%);\n  --header-background: white;\n}\n\n:root.light {\n  --primary-color: hsl(0, 0%, 25%);\n  --secondary-color: whitesmoke;\n  --banner-color: aliceblue;\n  --hover-color: hsl(209, 100%, 17%);\n  --header-background: white;\n}\n\n:root.dark {\n  --primary-color: whitesmoke;\n  --secondary-color: hsl(0, 0%, 25%);\n  --banner-color: hsl(211, 53%, 16%);\n  --hover-color: hsl(208, 78%, 9%);\n  --header-background: hsl(0, 0%, 7%);\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\nbody {\n  margin: 0;\n  color: var(--primary-color);\n  background-color: var(--header-background);\n  overflow-x: hidden;\n  overflow-y: auto;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\nbutton {\n  font-family: inherit;\n  font-weight: inherit;\n  color: var(--primary-color);\n  background: none;\n  padding: 10px;\n  border: none;\n  cursor: pointer;\n}\n\ni {\n  color: var(--primary-color);\n  font-size: 2.3rem;\n  cursor: pointer;\n}\n\ni:hover {\n  color: var(--hover-color);\n}\n\nh2 {\n  font-weight: 500;\n  font-size: 2.1rem;\n  color: var(--primary-color);\n  font-family: Arial, Helvetica, sans-serif;\n}\n\np {\n  max-width: 100%;\n  text-align: left;\n  line-height: 25px;\n  margin-top: 30px;\n  line-height: 28px;\n}\n\n.home section:nth-child(1) {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  margin-top: 150px;\n}\n\n.home section:nth-child(2) {\n  margin-left: 50px;\n  margin-right: 50px;\n  padding-bottom: 30px;\n}\n\n.home section:nth-child(2) > .bottom {\n  display: -ms-grid;\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));\n  gap: 15px;\n}\n\n.home section:nth-child(2) h2 {\n  margin-bottom: 30px;\n}\n\n.content {\n  margin-top: 150px;\n}\n\n#preloader {\n  background: black url(../../images/loader.gif) no-repeat center;\n  background-size: 20%;\n  height: 100dvh;\n  width: 100%;\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  z-index: 10000;\n}"],"sourceRoot":""}]);
+}
+`, "",{"version":3,"sources":["webpack://./src/styles/general.css"],"names":[],"mappings":"AAAA;;;EAGE,SAAS;EACT,8BAA8B;EAC9B,sBAAsB;EACtB,uBAAuB;EACvB,gBAAgB;EAChB,UAAU;AACZ;;AAEA;EACE,gCAAgC;EAChC,6BAA6B;EAC7B,yBAAyB;EACzB,kCAAkC;EAClC,0BAA0B;AAC5B;;AAEA;EACE,gCAAgC;EAChC,6BAA6B;EAC7B,yBAAyB;EACzB,kCAAkC;EAClC,0BAA0B;AAC5B;;AAEA;EACE,2BAA2B;EAC3B,kCAAkC;EAClC,kCAAkC;EAClC,gCAAgC;EAChC,mCAAmC;AACrC;;AAEA;EACE;IACE,2BAA2B;IAC3B,kCAAkC;IAClC,kCAAkC;IAClC,gCAAgC;IAChC,mCAAmC;EACrC;AACF;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,SAAS;EACT,2BAA2B;EAC3B,0CAA0C;EAC1C,kBAAkB;EAClB,gBAAgB;EAChB,uBAAuB;AACzB;;AAEA;EACE,qBAAqB;EACrB,cAAc;EACd,yBAAyB;EACzB,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,oBAAoB;EACpB,oBAAoB;EACpB,2BAA2B;EAC3B,gBAAgB;EAChB,aAAa;EACb,YAAY;EACZ,eAAe;AACjB;;AAEA;EACE,2BAA2B;EAC3B,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,2BAA2B;EAC3B,yCAAyC;AAC3C;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;EACjB,gBAAgB;EAChB,iBAAiB;AACnB;;AAEA;EACE,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,wBAAwB;EACxB,qBAAqB;EACrB,uBAAuB;EACvB,yBAAyB;EACzB,sBAAsB;EACtB,mBAAmB;EACnB,iBAAiB;AACnB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;AACtB;;;AAGA;EACE,iBAAiB;EACjB,aAAa;EACb,4DAA4D;EAC5D,SAAS;AACX;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,0EAA+D;EAC/D,oBAAoB;EACpB,cAAc;EACd,WAAW;EACX,eAAe;EACf,MAAM;EACN,SAAS;EACT,cAAc;AAChB","sourcesContent":["*,\n*::before,\n*::after {\n  margin: 0;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box;\n  font-family: sans-serif;\n  font-weight: 100;\n  padding: 0;\n}\n\n:root {\n  --primary-color: hsl(0, 0%, 25%);\n  --secondary-color: whitesmoke;\n  --banner-color: aliceblue;\n  --hover-color: hsl(209, 100%, 17%);\n  --header-background: white;\n}\n\n:root.light {\n  --primary-color: hsl(0, 0%, 25%);\n  --secondary-color: whitesmoke;\n  --banner-color: aliceblue;\n  --hover-color: hsl(209, 100%, 17%);\n  --header-background: white;\n}\n\n:root.dark {\n  --primary-color: whitesmoke;\n  --secondary-color: hsl(0, 0%, 25%);\n  --banner-color: hsl(211, 53%, 16%);\n  --hover-color: hsl(208, 78%, 9%);\n  --header-background: hsl(0, 0%, 7%);\n}\n\n@media (prefers-color-scheme: dark) {\n  :root {\n    --primary-color: whitesmoke;\n    --secondary-color: hsl(0, 0%, 25%);\n    --banner-color: hsl(211, 53%, 16%);\n    --hover-color: hsl(208, 78%, 9%);\n    --header-background: hsl(0, 0%, 7%);\n  }\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\nbody {\n  margin: 0;\n  color: var(--primary-color);\n  background-color: var(--header-background);\n  overflow-x: hidden;\n  overflow-y: auto;\n  transition: 1s ease all;\n}\n\na {\n  text-decoration: none;\n  color: inherit;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n}\n\nbutton {\n  font-family: inherit;\n  font-weight: inherit;\n  color: var(--primary-color);\n  background: none;\n  padding: 10px;\n  border: none;\n  cursor: pointer;\n}\n\ni {\n  color: var(--primary-color);\n  font-size: 2.3rem;\n  cursor: pointer;\n}\n\ni:hover {\n  color: var(--hover-color);\n}\n\nh2 {\n  font-weight: 500;\n  font-size: 2.1rem;\n  color: var(--primary-color);\n  font-family: Arial, Helvetica, sans-serif;\n}\n\np {\n  max-width: 100%;\n  text-align: left;\n  line-height: 25px;\n  margin-top: 30px;\n  line-height: 28px;\n}\n\n.home section:nth-child(1) {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  margin-top: 150px;\n}\n\n.home section:nth-child(2) {\n  margin-left: 50px;\n  margin-right: 50px;\n  padding-bottom: 30px;\n}\n\n\n.home section:nth-child(2) > .bottom {\n  display: -ms-grid;\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));\n  gap: 15px;\n}\n\n.home section:nth-child(2) h2 {\n  margin-bottom: 30px;\n}\n\n.content {\n  margin-top: 150px;\n}\n\n#preloader {\n  background: black url(../../images/loader.gif) no-repeat center;\n  background-size: 20%;\n  height: 100dvh;\n  width: 100%;\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  z-index: 10000;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6668,9 +6766,9 @@ header > .left .fa-bowl-food:hover {
           justify-content: flex-start;
   gap: 2rem;
   padding-top: 50px;
-  -webkit-transition: 2s ease all;
-  -o-transition: 2s ease all;
-  transition: 2s ease all;
+  -webkit-transition: 1s ease all;
+  -o-transition: 1s ease all;
+  transition: 1s ease all;
 }
 
 .show {
@@ -6680,7 +6778,7 @@ header > .left .fa-bowl-food:hover {
 .phone-sidebar button {
   font-size: 1.1rem;
   text-align: left;
-}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;EACE,0CAA0C;EAC1C,eAAe;EACf,MAAM;EACN,QAAQ;EACR,OAAO;EACP,aAAa;EACb,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,mBAAmB;EACnB,oBAAoB;EACpB,WAAW;AACb;;AAEA;EACE,mBAAmB;MACf,WAAW;UACP,OAAO;EACf,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;AAC7B;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,eAAe;AACjB;;AAEA;;GAEG;;AAEH;EACE,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,SAAS;AACX;;AAEA;EACE,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,0BAA0B;AAC5B;;AAEA;EACE,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,iBAAiB;EACjB,aAAa;AACf;;AAEA;EACE,eAAe;EACf,SAAS;EACT,aAAa;EACb,0CAA0C;EAC1C,aAAa;EACb,YAAY;EACZ,cAAc;EACd,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,4BAA4B;EAC5B,6BAA6B;MACzB,0BAA0B;UACtB,sBAAsB;EAC9B,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,uBAAuB;MACnB,oBAAoB;UAChB,2BAA2B;EACnC,SAAS;EACT,iBAAiB;EACjB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;AACzB;;AAEA;EACE,QAAQ;AACV;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;AAClB","sourcesContent":["header {\n  background-color: var(--header-background);\n  position: fixed;\n  top: 0;\n  right: 0;\n  left: 0;\n  height: 100px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  padding-left: 100px;\n  padding-right: 100px;\n  z-index: 10;\n}\n\nheader > .left {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.name {\n  font-size: 1.5rem;\n  margin-left: 40px;\n  cursor: pointer;\n}\n\n/* .name:hover {\n  color: var(--hover-color);\n} */\n\nheader nav {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  gap: 4rem;\n}\n\nheader nav button {\n  font-weight: 500;\n  font-size: 1rem;\n}\n\nheader nav button:hover {\n  color: hsl(209, 100%, 17%);\n}\n\nheader > .left .fa-bowl-food {\n  font-size: 2rem;\n  cursor: pointer;\n}\n\nheader > .left .fa-bowl-food:hover {\n  color: var(--hover-color);\n}\n\n.phone-nav {\n  font-size: 1.5rem;\n  display: none;\n}\n\n.phone-sidebar {\n  position: fixed;\n  top: 90px;\n  right: -200px;\n  background-color: var(--header-background);\n  height: 700px;\n  width: 200px;\n  z-index: 99999;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  gap: 2rem;\n  padding-top: 50px;\n  -webkit-transition: 2s ease all;\n  -o-transition: 2s ease all;\n  transition: 2s ease all;\n}\n\n.show {\n  right: 0;\n}\n\n.phone-sidebar button {\n  font-size: 1.1rem;\n  text-align: left;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/header.css"],"names":[],"mappings":"AAAA;EACE,0CAA0C;EAC1C,eAAe;EACf,MAAM;EACN,QAAQ;EACR,OAAO;EACP,aAAa;EACb,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,mBAAmB;EACnB,oBAAoB;EACpB,WAAW;AACb;;AAEA;EACE,mBAAmB;MACf,WAAW;UACP,OAAO;EACf,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;AAC7B;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,eAAe;AACjB;;AAEA;;GAEG;;AAEH;EACE,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,SAAS;AACX;;AAEA;EACE,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,0BAA0B;AAC5B;;AAEA;EACE,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,iBAAiB;EACjB,aAAa;AACf;;AAEA;EACE,eAAe;EACf,SAAS;EACT,aAAa;EACb,0CAA0C;EAC1C,aAAa;EACb,YAAY;EACZ,cAAc;EACd,oBAAoB;EACpB,oBAAoB;EACpB,aAAa;EACb,4BAA4B;EAC5B,6BAA6B;MACzB,0BAA0B;UACtB,sBAAsB;EAC9B,yBAAyB;MACrB,sBAAsB;UAClB,mBAAmB;EAC3B,uBAAuB;MACnB,oBAAoB;UAChB,2BAA2B;EACnC,SAAS;EACT,iBAAiB;EACjB,+BAA+B;EAC/B,0BAA0B;EAC1B,uBAAuB;AACzB;;AAEA;EACE,QAAQ;AACV;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;AAClB","sourcesContent":["header {\n  background-color: var(--header-background);\n  position: fixed;\n  top: 0;\n  right: 0;\n  left: 0;\n  height: 100px;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  padding-left: 100px;\n  padding-right: 100px;\n  z-index: 10;\n}\n\nheader > .left {\n  -webkit-box-flex: 1;\n      -ms-flex: 1;\n          flex: 1;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.name {\n  font-size: 1.5rem;\n  margin-left: 40px;\n  cursor: pointer;\n}\n\n/* .name:hover {\n  color: var(--hover-color);\n} */\n\nheader nav {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  gap: 4rem;\n}\n\nheader nav button {\n  font-weight: 500;\n  font-size: 1rem;\n}\n\nheader nav button:hover {\n  color: hsl(209, 100%, 17%);\n}\n\nheader > .left .fa-bowl-food {\n  font-size: 2rem;\n  cursor: pointer;\n}\n\nheader > .left .fa-bowl-food:hover {\n  color: var(--hover-color);\n}\n\n.phone-nav {\n  font-size: 1.5rem;\n  display: none;\n}\n\n.phone-sidebar {\n  position: fixed;\n  top: 90px;\n  right: -200px;\n  background-color: var(--header-background);\n  height: 700px;\n  width: 200px;\n  z-index: 99999;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-pack: start;\n      -ms-flex-pack: start;\n          justify-content: flex-start;\n  gap: 2rem;\n  padding-top: 50px;\n  -webkit-transition: 1s ease all;\n  -o-transition: 1s ease all;\n  transition: 1s ease all;\n}\n\n.show {\n  right: 0;\n}\n\n.phone-sidebar button {\n  font-size: 1.1rem;\n  text-align: left;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6735,8 +6833,8 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 850px) {
   .banner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .banner > .left {
@@ -6759,24 +6857,24 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 850px) {
   .menu-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .middle-section {
     display: none;
   }
 
-  .left-section{
+  .left-section {
     margin-bottom: 30px;
   }
 
-  .right-section{
+  .right-section {
     margin-top: 30px;
     padding-bottom: 40px;
   }
 }
-`, "",{"version":3,"sources":["webpack://./src/styles/media.css"],"names":[],"mappings":"AAAA;EACE;IACE,4DAA4D;IAC5D,aAAa;EACf;;EAEA;IACE,UAAU;IACV,kBAAkB;IAClB,mBAAmB;EACrB;;EAEA;IACE,SAAS;IACT,iBAAiB;EACnB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,eAAe;EACjB;;EAEA;IACE,4BAA4B;IAC5B,6BAA6B;QACzB,0BAA0B;YACtB,sBAAsB;EAChC;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,aAAa;IACb,kBAAkB;EACpB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,4BAA4B;IAC5B,6BAA6B;QACzB,0BAA0B;YACtB,sBAAsB;EAChC;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,gBAAgB;IAChB,oBAAoB;EACtB;AACF","sourcesContent":["@media (max-width: 850px) {\n  .home section:nth-child(2) > .bottom {\n    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));\n    row-gap: 50px;\n  }\n\n  header {\n    padding: 0;\n    padding-left: 20px;\n    padding-right: 20px;\n  }\n\n  .name {\n    margin: 0;\n    margin-left: 15px;\n  }\n\n  header nav {\n    display: none;\n  }\n\n  .phone-nav {\n    display: inline;\n  }\n\n  .banner {\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n  }\n\n  .banner > .left {\n    background: none;\n  }\n\n  .banner > .left img {\n    border-radius: 0;\n  }\n\n  .banner > .right {\n    padding: 50px;\n    text-align: center;\n  }\n\n  .arrow {\n    display: none;\n  }\n\n  .menu-container {\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n  }\n\n  .middle-section {\n    display: none;\n  }\n\n  .left-section{\n    margin-bottom: 30px;\n  }\n\n  .right-section{\n    margin-top: 30px;\n    padding-bottom: 40px;\n  }\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/styles/media.css"],"names":[],"mappings":"AAAA;EACE;IACE,4DAA4D;IAC5D,aAAa;EACf;;EAEA;IACE,UAAU;IACV,kBAAkB;IAClB,mBAAmB;EACrB;;EAEA;IACE,SAAS;IACT,iBAAiB;EACnB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,eAAe;EACjB;;EAEA;IACE,4BAA4B;IAC5B,6BAA6B;IAC7B,0BAA0B;IAC1B,sBAAsB;EACxB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,gBAAgB;EAClB;;EAEA;IACE,aAAa;IACb,kBAAkB;EACpB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,4BAA4B;IAC5B,6BAA6B;IAC7B,0BAA0B;IAC1B,sBAAsB;EACxB;;EAEA;IACE,aAAa;EACf;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,gBAAgB;IAChB,oBAAoB;EACtB;AACF","sourcesContent":["@media (max-width: 850px) {\n  .home section:nth-child(2) > .bottom {\n    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));\n    row-gap: 50px;\n  }\n\n  header {\n    padding: 0;\n    padding-left: 20px;\n    padding-right: 20px;\n  }\n\n  .name {\n    margin: 0;\n    margin-left: 15px;\n  }\n\n  header nav {\n    display: none;\n  }\n\n  .phone-nav {\n    display: inline;\n  }\n\n  .banner {\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: column;\n    flex-direction: column;\n  }\n\n  .banner > .left {\n    background: none;\n  }\n\n  .banner > .left img {\n    border-radius: 0;\n  }\n\n  .banner > .right {\n    padding: 50px;\n    text-align: center;\n  }\n\n  .arrow {\n    display: none;\n  }\n\n  .menu-container {\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: column;\n    flex-direction: column;\n  }\n\n  .middle-section {\n    display: none;\n  }\n\n  .left-section {\n    margin-bottom: 30px;\n  }\n\n  .right-section {\n    margin-top: 30px;\n    padding-bottom: 40px;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7760,6 +7858,17 @@ module.exports = __webpack_require__.p + "3b48b290fb6ba8385093.webp";
 
 /***/ }),
 
+/***/ "./images/dinning.jpg":
+/*!****************************!*\
+  !*** ./images/dinning.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "96290b733389b573ebfb.jpg";
+
+/***/ }),
+
 /***/ "./images/loader.gif":
 /*!***************************!*\
   !*** ./images/loader.gif ***!
@@ -7992,7 +8101,7 @@ if (contentSection.innerHTML === "") {
       <section class="section">
         <div class="banner">
           <div class="left">
-            <img src="../images/dinning.jpg" class="menu1" alt="" />
+           
           </div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
@@ -8013,9 +8122,7 @@ if (contentSection.innerHTML === "") {
         </div>
         <div class="bottom">
           <div class="dish">
-            <div class="top">
-              <img src="../images/breakfast.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8030,9 +8137,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/brunch.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8047,9 +8152,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dinner.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8064,9 +8167,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dessert.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8081,9 +8182,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/wines.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8098,9 +8197,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/snacks.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8121,11 +8218,9 @@ if (contentSection.innerHTML === "") {
 function renderHomePage() {
   contentSection.classList.add("home");
   contentSection.innerHTML = `
-    <section class="section">
+      <section class="section">
         <div class="banner">
-          <div class="left">
-            <img src="../images/dinning.jpg" class="menu1" alt="" />
-          </div>
+          <div class="left"></div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
             <p>
@@ -8141,13 +8236,11 @@ function renderHomePage() {
       </section>
       <section>
         <div class="top">
-          <h2 class= "dishes-title">Dishes</h2>
+          <h2>Dishes</h2>
         </div>
         <div class="bottom">
           <div class="dish">
-            <div class="top">
-              <img src="../images/breakfast.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8162,9 +8255,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/brunch.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8179,9 +8270,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dinner.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8196,9 +8285,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dessert.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8213,9 +8300,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/wines.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8230,9 +8315,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/snacks.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -8528,4 +8611,4 @@ function renderMenuContents() {
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle.a8f9e0774b42451b2bdc.js.map
+//# sourceMappingURL=bundle.c048d4d90257134be19a.js.map

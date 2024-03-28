@@ -26,8 +26,8 @@
   .banner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .banner > .left {
@@ -50,19 +50,19 @@
   .menu-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .middle-section {
     display: none;
   }
 
-  .left-section{
+  .left-section {
     margin-bottom: 30px;
   }
 
-  .right-section{
+  .right-section {
     margin-top: 30px;
     padding-bottom: 40px;
   }

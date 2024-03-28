@@ -37,14 +37,13 @@ phoneMenuButton.addEventListener("click", () => {
 
 // document.querySelector(".name").addEventListener("click", toggleTheme);
 
-
 if (contentSection.innerHTML === "") {
   contentSection.classList.add("home");
   contentSection.innerHTML = `
       <section class="section">
         <div class="banner">
           <div class="left">
-            <img src="../images/dinning.jpg" class="menu1" alt="" />
+           
           </div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
@@ -65,9 +64,7 @@ if (contentSection.innerHTML === "") {
         </div>
         <div class="bottom">
           <div class="dish">
-            <div class="top">
-              <img src="../images/breakfast.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -82,9 +79,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/brunch.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -99,9 +94,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dinner.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -116,9 +109,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dessert.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -133,9 +124,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/wines.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -150,9 +139,7 @@ if (contentSection.innerHTML === "") {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/snacks.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -174,11 +161,9 @@ if (contentSection.innerHTML === "") {
 function renderHomePage() {
   contentSection.classList.add("home");
   contentSection.innerHTML = `
-    <section class="section">
+      <section class="section">
         <div class="banner">
-          <div class="left">
-            <img src="../images/dinning.jpg" class="menu1" alt="" />
-          </div>
+          <div class="left"></div>
           <div class="right">
             <h2>Welcome To Foodies Restuarant</h2>
             <p>
@@ -194,13 +179,11 @@ function renderHomePage() {
       </section>
       <section>
         <div class="top">
-          <h2 class= "dishes-title">Dishes</h2>
+          <h2>Dishes</h2>
         </div>
         <div class="bottom">
           <div class="dish">
-            <div class="top">
-              <img src="../images/breakfast.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -215,9 +198,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/brunch.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -232,9 +213,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dinner.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -249,9 +228,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/dessert.jpg" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -266,9 +243,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/wines.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>
@@ -283,9 +258,7 @@ function renderHomePage() {
             </div>
           </div>
           <div class="dish">
-            <div class="top">
-              <img src="../images/snacks.webp" alt="" />
-            </div>
+            <div class="top"></div>
             <div class="bottom">
               <div class="icons">
                 <i class="fa-solid fa-star"></i>

@@ -91,9 +91,9 @@ header > .left .fa-bowl-food:hover {
           justify-content: flex-start;
   gap: 2rem;
   padding-top: 50px;
-  -webkit-transition: 2s ease all;
-  -o-transition: 2s ease all;
-  transition: 2s ease all;
+  -webkit-transition: 1s ease all;
+  -o-transition: 1s ease all;
+  transition: 1s ease all;
 }
 
 .show {
