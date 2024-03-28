@@ -3,6 +3,7 @@ import "./styles/header.css";
 import "./styles/content.css";
 import "./styles/menu.css";
 import "./styles/about.css";
+import "./styles/media.css";
 import "@fortawesome/fontawesome-free/js/fontawesome";
 import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
@@ -12,14 +13,33 @@ const contentSection = document.getElementById("content");
 const homeButton = document.getElementById("home");
 const menuButton = document.getElementById("menuButton");
 
+const phoneHomeButton = document.querySelector(".phone-home");
+const phoneMenuButton = document.querySelector(".phone-menu");
+
 menuButton.addEventListener("click", renderMenuContents);
 homeButton.addEventListener("click", renderHomePage);
 
+phoneHomeButton.addEventListener("click", () => {
+  renderHomePage();
+  document.querySelector(".phone-sidebar").classList.toggle("show");
+});
+
+phoneMenuButton.addEventListener("click", () => {
+  renderMenuContents();
+  document.querySelector(".phone-sidebar").classList.toggle("show");
+});
+
+// function toggleTheme() {
+//   const rootElement = document.documentElement;
+//   const theme = rootElement.className === "dark" ? "light" : "dark";
+//   rootElement.className = theme;
+// }
+
+// document.querySelector(".name").addEventListener("click", toggleTheme);
+
+
 if (contentSection.innerHTML === "") {
   contentSection.classList.add("home");
-  document.querySelector("header").style = `
-  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
-  `;
   contentSection.innerHTML = `
       <section class="section">
         <div class="banner">
@@ -152,10 +172,6 @@ if (contentSection.innerHTML === "") {
 }
 
 function renderHomePage() {
-  document.body.style = `background-color: white;`;
-  document.querySelector("header").style = `
-  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
-  `;
   contentSection.classList.add("home");
   contentSection.innerHTML = `
     <section class="section">
@@ -290,12 +306,8 @@ function renderHomePage() {
 
 function renderMenuContents() {
   contentSection.classList.remove("home");
-  document.querySelector("header").style = `
-  box-shadow: 0px 1px 5px 2px rgb(217, 217, 217);
-  `;
-  document.body.style = `background-color: aliceblue;`;
   contentSection.innerHTML = `
-        <div class="menu">
+    <div class="menu">
       <div class="menu-container">
         <div class="left-section">
           <section id="breakfast">

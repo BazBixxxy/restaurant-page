@@ -1,28 +1,54 @@
 .menu {
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   line-height: 29px;
 }
 
 .menu-container {
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .left-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .right-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section {
@@ -47,9 +73,13 @@ section .bottom-line {
 }
 
 .food-container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 70px;
   grid-template-columns: 1fr 70px;
-  column-gap: 20px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
   margin-top: 50px;
 }
 
@@ -65,13 +95,18 @@ section .bottom-line {
 }
 
 .right-section section:nth-child(2) {
-  /* background-color: blue; */
   height: 380px;
   width: 350px;
   margin: 0;
   margin-top: 20px;
   margin-right: 40px;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.281)), to(rgba(0, 0, 0, 0.418))),
+    url(../../images/dinner.webp);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.418)),
+    url(../../images/dinner.webp);
   background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.418)),
     url(../../images/dinner.webp);
   background-size: cover;
@@ -89,7 +124,13 @@ section .bottom-line {
   margin: 0;
   margin-top: 20px;
   margin-right: 40px;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.281)), to(rgba(0, 0, 0, 0.239))),
+    url(../../images/brunch.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.239)),
+    url(../../images/brunch.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.239)),
     url(../../images/brunch.jpg);
   background-size: cover;

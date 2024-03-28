@@ -6,16 +6,29 @@
 .contact-banner {
   margin-top: -50px;
   height: 55vh;
-  /* background-color: aliceblue; */
+  /* padding: 110px; */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))),
+    url(../../images/serving.jpg);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../images/serving.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../../images/serving.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   color: rgb(255, 255, 255);
 }
@@ -40,37 +53,49 @@
   border: 0.01px solid rgb(255, 239, 241);
   padding: 10px;
   background-color: transparent;
-  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
   position: absolute;
   bottom: 35px;
-}
-
-.contact-banner button:hover {
-  border: none;
+  color: white;
 }
 
 .about-banner {
   height: 30.2vh;
-  /* background-color: lightskyblue; */
+  /* padding: 20px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--primary-color);
 }
 
 .about-banner > .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .about-banner > .top .left-line {
-  border: 0.5px solid lightgrey;
+  border: 0.5px solid var(--primary-color);
   height: 0.5px;
   width: 100px;
 }
 
 .about-banner > .top .right-line {
-  border: 0.5px solid lightgrey;
+  border: 0.5px solid var(--primary-color);
   height: 0.5px;
   width: 100px;
 }
@@ -79,8 +104,8 @@
   font-weight: 100;
   font-family: "calligraphic";
   font-size: 2.2rem;
-  letter-spacing: .2rem;
-  color: rgb(52, 52, 52);
+  letter-spacing: 0.2rem;
+  color: var(--primary-color);
   margin: 0;
 }
 
@@ -91,6 +116,8 @@
 }
 
 .about-banner .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -101,5 +128,6 @@
 .fa-x-twitter {
   margin-right: 30px;
   font-size: 1.2rem;
+  color: var(--primary-color);
   cursor: pointer;
 }
